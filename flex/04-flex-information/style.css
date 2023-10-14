@@ -7,9 +7,25 @@ img {
   height: 100px;
 }
 
+.all-plants {
+  display: flex;
+  justify-content: center;
+  gap: 52px
+}
+
+.plant {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  align-items: center;
+  text-align: center;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  padding: 32px;
 }
 
 /* do not edit this footer */
